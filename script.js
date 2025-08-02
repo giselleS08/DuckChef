@@ -34,11 +34,10 @@ let horchataText = `
 
 function setup() {
   createCanvas(800, 800);
-  background(133);
+  background(255);
 }
 
 function draw() {
   noStroke()
-  fill(random(colorlist));
-  ellipse(mouseX, mouseY, 25, 25);
+ 
 }
