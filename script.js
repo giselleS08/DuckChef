@@ -26,8 +26,7 @@ let horchataText = `
     d:color(86,149,234),//neutral blue
     f:color(55,96,193)//gray/dark blue
   };
-
-      horchata = new Sprite();
+        horchata = new Sprite();
         horchata.img = spriteArt(horchataText, 12, palette1);
        horchata.pos={x:115, y: 75};
         horchata.rotation =0;
