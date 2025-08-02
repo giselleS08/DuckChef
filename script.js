@@ -39,5 +39,5 @@ function setup() {
 
 function draw() {
   noStroke()
- 
+ horchata.pos={x:115, y: 75};
 }
